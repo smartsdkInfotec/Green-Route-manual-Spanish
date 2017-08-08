@@ -416,6 +416,40 @@ Smart Spot, Cloudino y SDK para NGSI.
 
 ![Arquitecture](images/43_arquitecture.png)
 
+## 5.1 Back End Green Route
+El Back End es el administrador de tráfico de datos de toda la aplicación. Al mismo 
+tiempo la interfaz gráfica interactúa en todo momento con el Back End. Algunos ejemplos de las configuraciones 
+que tiene este componente son: las conexiones a la base de datos de Mongo, catálogos, administración de identidad, 
+entre otros.
 
+El código de este componente se encuentra en GitHub: 
+[Back End Green Route](https://github.com/R4chel83/smartcity-back). 
+
+## 5.2 Front End Green Route
+Este componente administra la interfaz gráfica de Green Route. Todos los archivos css, que forman parte de la 
+visualización se encuentran en el Front End. A través de la interfaz gráfica el usuario interactúa con el
+Back End.
+
+El código de este componente se encuentra en GitHub: 
+[Front End Green Route](https://github.com/R4chel83/smartcity-front). 
+
+## 5.3 Vagrant - keyrock Green Route
+Este componente despliegue los servicios de base de datos (Mongo) y de autenticación (Keyrock). Por ejemplo,
+todas las alertas y datos de usuarios son almacenados en Mongo, mientras que todos los servicios de autenticación
+para acceder a las aplicaciones, servicios y accesos de usuarios son administrador por keyrock.
+
+El código de este componente se encuentra en GitHub: 
+[Vagrant - keyrock](https://github.com/R4chel83/vagrant-keyrock). 
+
+## 5.4 Componente de Calidad del Aire
+El componente Calidad del Aire extrae la información de todas las estaciones que podría haber listado en el Orion 
+Context Broker. Las estaciones deben estar modeladas en el modelo de datos de FIWARE "Air Quality Observed".
+[Air Quality Observed Model from FIWARE](http://fiware-datamodels.readthedocs.io/en/latest/Environment/AirQualityObserved/doc/spec/index.html). 
+Cada punto debe estar suscrito al Orion para que los datos se actualicen en tiempo real.
+Este componente también es capaz de calcular el índice de calidad del aire. Toda la información generada por este
+componente se muestra sobre un mapa gráfico.
+
+El código de este componente se encuentra en GitHub: 
+[Air Quality component](https://github.com/ftcardoso/airQualityDemo). 
 
 
