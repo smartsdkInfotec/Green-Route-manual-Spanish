@@ -15,7 +15,7 @@ Por lo general, las ciudades sufren para gestionar la energía, la movilidad, el
 los residuos, la salud, la seguridad, etc. Por lo cuál los recursos financieros y humanos necesarios para apoyar 
 a las ciudades son inmensos.
 
-![Smart Mobility](/images/1_introduction.png)
+![Smart Mobility](images/1_introduction.png)
 
 ## 1.1 Audiencia
 Este documento está destinado principalmente a:
@@ -92,14 +92,14 @@ El usuario debe ser cuidado en el correo electrónico que indique, debido a que 
 recibirá un token válido de acceso a la aplicación. 
 
 
-![SingUp](/images/32_SingUp.png)
+![SingUp](images/32_SingUp.png)
 
 #### 3.2.1 Inicio de sesión
 Una vez que el usuario se ha registrado, puede tener acceso a la aplicación.
 El enlace para el inicio de sesión es [www.greenroutesdk.com/#/login](http://207.249.127.124/#/login). 
 El usuario debe usar el mismo correo electrónico y contraseña registrados previamente.
 
-![SignIn](/images/321_SingIn.png)
+![SignIn](images/321_SingIn.png)
 
 Green route realiza un conjunto de validaciones, tales como indicar que el correo electrónico y contraseña 
 son requeridos para el registro.
@@ -120,7 +120,7 @@ El usuario debe indicar el correo electrónico con que se registró y pulsar el 
 Posteriormente, el usuario recibirá, en su bandeja de entrada, un correo electrónico con las instrucciones para crear una
 nueva contraseña.
 
-![ForgotPassword](/images/322_forgotPassword.png)
+![ForgotPassword](images/322_forgotPassword.png)
 
 #### 3.2.3 Cambiar la contraseña
 Para cambiar la contraseña, el usuario debe iniciar sesión en Green Route.
@@ -132,7 +132,7 @@ la contraseña actual y la nueva contraseña.
 Posteriormente, el usuario debe confirmar la nueva contraseña y guardar los cambios.
 Para validar los cambios, el usuario debe cerrar e iniciar sesión nuevamente con la nueva contraseña.
  
-![ChangePassword](/images/323_changePassword.png)
+![ChangePassword](images/323_changePassword.png)
 
 
 #### 3.2.4 Cancelar la cuenta
@@ -140,12 +140,12 @@ Para cancelar la cuenta, el usuario debe iniciar sesión y dirigirse a las opcio
 Es importante mencionar que al momento de cancelar la cuenta, se borran todos los registros y configuraciones 
 realizadas por el usuario. La opción de cancelación de cuenta es permanente.
 
-![CancelAccount](/images/324_cancelAccount.png)
+![CancelAccount](images/324_cancelAccount.png)
 
 #### 3.2.5 Cerrar sesión
 Para cerrar sesión en Green Route, el usuario debe pulsar el botón "Log out".
 
-![LogOut](/images/325_logOut.png)
+![LogOut](images/325_logOut.png)
 
 ---
 ## 3.3 Perfil del usuario
@@ -164,7 +164,7 @@ por ejemplo: nombre, apellido, fecha de nacimiento y género.
 De acuerdo al nombre que indique en esta sección el usuario, será el nombre que se visualizará siempre que inicie
 Green Route.
 
-![EditProfile](/images/332_editProfile.png)
+![EditProfile](images/332_editProfile.png)
 
 #### 3.3.3 Registro / edición de direcciones 
 
@@ -173,12 +173,12 @@ De esta forma, el usuario puede añadir información de sus direcciones favorita
 Por ejemplo, si el usuario desea, puede añadir la dirección de su lugar de trabajo.
 Para añadir direcciones, el usuario debe pulsar el botón "Add address" en el menú de "User profile".
 
-![PersonalAddress](/images/333_personalAddress.png)
+![PersonalAddress](images/333_personalAddress.png)
 
 Una vez dentro de esta opción, el usuario puede añadir información como región, localidad, código postal, entre otros datos.
 Un usuario puede indicar si esta dirección corresponde a su trabajo o su casa, y si es una dirección favorita.
 
-![PersonalAddress](/images/333_personalAddress2.png)
+![PersonalAddress](images/333_personalAddress2.png)
 
 ---
 
@@ -190,18 +190,18 @@ perfil de salud. Para realizar el registro del perfil de salud, el usuario ingre
 se muestran tres opciones, que el usuario tiene la libertad de indicar alguna de ellas: su estado de salud actual,
 indicar síntomas en caso de alergías o su nivel de asma.
 
-![HealthProfile](/images/341_healthprofile.png)
+![HealthProfile](images/341_healthprofile.png)
 
 En la opción de alergía, Green Route presenta un conjunto de síntomas. El usuario puede indicar de la lista presentada
 cuáles son los sintomas que presenta durante una alergia.
 La información ingresada, será tomanda en cuenta para la optimización y generación de rutas para el usuario.
 
-![HealthProfile](/images/341_healthprofile2.png)
+![HealthProfile](images/341_healthprofile2.png)
 
 En la opción de asma, Green Route presenta cuatro nivel identificados: Asma intermitente leve, 
 Asma persistente leve, Asma persistente moderada y Asma persistente grave.
  
-![HealthProfile](/images/341_healthprofile3.png)
+![HealthProfile](images/341_healthprofile3.png)
 
 ---
 
@@ -214,13 +214,13 @@ Para realizar el registro, edición, actualización o eliminación de su informa
 profile". Si el usuario ha registrado vehículos, se mostrará una lista con los vehículos registrados.
 Para añadir un nuevo vehículo, el usuario debe pulsar el botón "Add".
 
-![VehicleProfile](/images/351_registerVehicle.png)
+![VehicleProfile](images/351_registerVehicle.png)
 
 Dentro de esta opción, el usuario puede añadir datos de su vehículo, ya sea un coche, una bicicleta o moto. 
 Algunos de los datos que ingresa son: tipo de vehículo, tipo de combustible, placas, entre otros.
 Así mismo, el usuario puede indicar si un vehículo es favorito o no.
 
-![VehicleProfile](/images/351_registerVehicle2.png)
+![VehicleProfile](images/351_registerVehicle2.png)
 
 ---
 ## 3.6 Suscripciones a grupos
@@ -236,7 +236,7 @@ Por ejemplo, el grupo de "Forecaster" notifica alertas sobre condiciones del cli
 O en el caso del grupo de "Bikers" este grupo notifica sobre tráfico, accidentes y condición del clima.
 Otros grupos actuales son: runners / walkers, drivers, public transport users y usuarios con enfermedades respiratorias.
 
-![subscribedGroups](/images/361_subscribeGroups.png)
+![subscribedGroups](images/361_subscribeGroups.png)
 
 Si un usuario no quiere estar suscrito a un grupo que ya previamente habia seleccionado, solo debe ingresar abrir
 a suscripciones y deshabilitar la opción de "Subscribe".
@@ -255,7 +255,7 @@ de asma. De lado izquierdo de Green Route, se muestra el menú de "Alerts" y al 
 de "Generate alerts". La URL para ingresar a esta aplicación es 
 [https://www.smartsdkitesm.com](https://www.smartsdkitesm.com).
 
-![GenerateAlert](/images/371_generateAlert.png)
+![GenerateAlert](images/371_generateAlert.png)
 
 Una vez dentro de esta opción se mostrará un mapa, en el cual es necesario activar la función de GPS del teléfono
  del usuario, con el objetivo de que en el mapa se muestre la ubicación real del usuario.
@@ -263,14 +263,14 @@ En la parte inferior del mapa, se muestran una seria de alertas y tipos de alert
 Para generar una alerta, basta que el usuario pulse sobre alguno de los íconos de las alertas, también se puede añadir
 alguna información o comentario adicional referente a la alerta.
 
-![GenerateAlert](/images/371_generateAlert2.png)
+![GenerateAlert](images/371_generateAlert2.png)
 
 #### 3.7.2 Mostrar mis alertas
 De acuerdo a las alertas generadas, el usuario puede visualizar todas las alertas que ha generado y compartido con otros
 usuarios. El usuario tiene la opción de filtrar las alertas por tipo. También puede filtrarlas por subtipo o fecha 
 de generación de la alerta.
 
-![ShowAlert](/images/372_showAlerts.png)
+![ShowAlert](images/372_showAlerts.png)
 
 #### 3.7.3 Mostrar todas las alertas generadas
 Mientras que "Show my alerts" muestra las alertas que un usuario generó, la opción de "Show all alerts" muestra todas las alertas
@@ -282,13 +282,13 @@ Green Route, muestra la localización, tipo de alerta, subtipo, fecha, descripci
 Actualmente, para las alertas de condición del clima, se cuenta con las siguientes fuentes de datos: 47 estaciones de calidad del aire de la CDMX,
 y dos componentes de IoT: Smart Spot and Cloudino [SmartSDK IoT](https://smartsdk.eu/wp-content/uploads/sites/8/2017/06/SmartSDK_D3.2v1.2_FINAL.pdf).
 
-![ShowAllAlert](/images/373_showAllAlerts.png)
+![ShowAllAlert](images/373_showAllAlerts.png)
 
 Más aún, Green Route muestra el número de notificaciones por tipo de alerta, en la parte superior derecha de Green Route,
 ahí se muestra un ícono de una campana que muestra de forma resumida el número total de alertas recibidas por grupo.
 Al pulsar el botón de "View all", el usuario será redireccionado a la opción de "Show all alerts".
 
-![ShowAllAlert](/images/373_showAllAlerts2.png)
+![ShowAllAlert](images/373_showAllAlerts2.png)
 
 ---
 ## 3.8 Planificar mi viaje
@@ -356,14 +356,14 @@ también son funcionalidades para estos perfiles.
 Un super-usuario tiene la función para la creación, edición, actualización y eliminación de grupos. En el caso
 del administrador, solo puede editar y actualizar los grupos.
 
-![ManageGroups](/images/411_groups.png)
+![ManageGroups](images/411_groups.png)
 
 ---
 ## 4.2 Administración de usuarios
 Un super-usuario tiene la función para crear, editar y actualización  de nuevos usuarios, con los siguientes perfiles: usuario final, administrador
 de transporte público o administrador. 
 
-![ManageUsers](/images/42_managerUsers.png)
+![ManageUsers](images/42_managerUsers.png)
 
 ---
 ### 4.2.1 Componente de transporte público
@@ -372,7 +372,7 @@ ser capturada en este componente. En el menú de "Search public transport" se pu
 cargada de transporte, ejemplo se puede hacer búsquedas por hora de partida, hora de llegada, nombre de ruta, entre otros. 
 Green Route mostrará una lista con los resultados encontrados.
 
-![PublicTransport](/images/421_publicTransport.png)
+![PublicTransport](images/421_publicTransport.png)
 
 ---
 
@@ -383,7 +383,7 @@ En esta opción, el super-usuario o administrador de transpor público, debe añ
 por ejemplo, número total de pasajeros, tipo de combustible, placas, entre otra información.
 También, en esta vista, se debe indicar el horario del transporte.
 
-![AddPublicTransport](/images/422_addPublicTransport.png)
+![AddPublicTransport](images/422_addPublicTransport.png)
 
 ---
 ### 4.2.3 Horario del transporte
@@ -392,7 +392,7 @@ la frequencia de servicio del transporte, y nombre de la ruta. El administrador 
 Schedule". Green Route presenta una lista con los horarios por día, frecuencia y agencia. También en esta vista es posible editar
 los horarios del transporte.
 
-![TransportSchedule](/images/423_transportSchedule.png)
+![TransportSchedule](images/423_transportSchedule.png)
 
 ---
 ### 4.2.4 Añadir horarios de transporte 
@@ -400,11 +400,11 @@ Para añadir, editar o actualizar los horarios del transporte público, Green Ro
 puede indicar el nombre de la ruta, horario de salida o llegada por día. Así mismo, el administrador puede indicar
 si el horario capturado está activo para que los usuarios pueden visualizarlo o no.
 
-![AddTransportSchedule](/images/424_addTransportSchedule.png)
+![AddTransportSchedule](images/424_addTransportSchedule.png)
 
 Por otro lado, el administrador debe indicar la frecuencia, agencia, sitio web e idioma.
 
-![AddTransportSchedule](/images/424_addTransportSchedule2.png)
+![AddTransportSchedule](images/424_addTransportSchedule2.png)
 
 ## 4.3 Arquitectura
 
@@ -414,7 +414,7 @@ al usuario (condiciones de salud), preferencias , tipo de transporte, etc. Esta 
 incluye algunos de los componentes desarrollados como parte del SmartSDK, tales como:
 Smart Spot, Cloudino y SDK para NGSI.
 
-![Arquitecture](/images/43_arquitecture.png)
+![Arquitecture](images/43_arquitecture.png)
 
 
 
