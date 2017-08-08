@@ -92,23 +92,23 @@ El usuario debe ser cuidado en el correo electrónico que indique, debido a que 
 recibirá un token válido de acceso a la aplicación. 
 
 
-![SingUp](images/32_SingUp.PNG)
+![SingUp](images/32_singUp.PNG)
 
 #### 3.2.1 Inicio de sesión
 Una vez que el usuario se ha registrado, puede tener acceso a la aplicación.
 El enlace para el inicio de sesión es [www.greenroutesdk.com/#/login](http://207.249.127.124/#/login). 
 El usuario debe usar el mismo correo electrónico y contraseña registrados previamente.
 
-![SignIn](images/321_SingIn.PNG)
+![SignIn](images/321_singIn.png)
 
 Green route realiza un conjunto de validaciones, tales como indicar que el correo electrónico y contraseña 
 son requeridos para el registro.
 
-![passwordRequired](images/321_SingIn2.PNG)
+![passwordRequired](images/321_singIn2.PNG)
 
 Otro ejemplo de validación, es que Green Route detecta cuando un usuario o contraseña no son válidos.
 
-![passwordInvalid](images/321_SingIn3.PNG)
+![passwordInvalid](images/321_singIn3.PNG)
 
 
 #### 3.2.2 ¿Se te olvidó tu contraseña?
