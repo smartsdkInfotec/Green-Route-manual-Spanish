@@ -349,7 +349,7 @@ También devuelve el polígono de la ruta en un formato de polilínea y la dista
 
 Para llevar a cabo la administración de la aplicación, es necesario tener acceso como alguno de los siguientes perfiles:
 super-usuario, administrador de transporte público o administrador. Todas las funcionalidades mencionadas anteriormente 
-también son funcionalidades para estos perfiles.
+también son funcionalidades accesibles para estos perfiles.
 
 ## 4.1 Administración del sitio
 
@@ -361,17 +361,19 @@ del administrador, solo puede editar y actualizar los grupos.
 
 ---
 ## 4.2 Administración de usuarios
-Un super-usuario tiene la función para crear, editar y actualización  de nuevos usuarios, con los siguientes perfiles: usuario final, administrador
-de transporte público o administrador. 
+Un super-usuario tiene la función para crear, editar y actualización de nuevos usuarios, con los siguientes 
+perfiles: usuario final, administrador de transporte público o administrador. 
 
 ![ManageUsers](images/42_managerUsers.PNG)
 
 ---
 ### 4.2.1 Componente de transporte público
-Por ahora, Green Route mostrará información real de transporte público de la Ciudad de México. Esta información debe 
-ser capturada en este componente. En el menú de "Search public transport" se pueden realizar filtros de la información 
-cargada de transporte, ejemplo se puede hacer búsquedas por hora de partida, hora de llegada, nombre de ruta, entre otros. 
-Green Route mostrará una lista con los resultados encontrados.
+Green Route mostrará información real de transporte público de la Ciudad de México. 
+Por lo cuál será necesario introducir información de no solo de la ruta, horarios y frecuencias, sino además 
+información quue describa al vehículo. Esta información debe ser capturada en este componente. 
+En el menú de "Search public transport" se pueden realizar filtros de la información almacenada de transporte
+público. Por ejemplo se pueden realizar búsquedas por hora de partida, hora de llegada, nombre de ruta, 
+entre otros. Green Route mostrará una lista con los resultados encontrados.
 
 ![PublicTransport](images/421_publicTransport.PNG)
 
@@ -379,9 +381,9 @@ Green Route mostrará una lista con los resultados encontrados.
 
 ### 4.2.2 Añadir transporte público
 
-Para añadir transporte público a Green Route se debe pulsar la opción "Add Public Transport".
-En esta opción, el super-usuario o administrador de transpor público, debe añadir información relacionada al vehículo, 
-por ejemplo, número total de pasajeros, tipo de combustible, placas, entre otra información.
+Para añadir un transporte público a Green Route se debe pulsar la opción "Add Public Transport".
+En esta opción, el super-usuario o administrador de transporte público, debe añadir información relacionada al
+vehículo, por ejemplo: número total de pasajeros, tipo de combustible, placas, entre otra información.
 También, en esta vista, se debe indicar el horario del transporte.
 
 ![AddPublicTransport](images/422_addPublicTransport.PNG)
@@ -389,17 +391,17 @@ También, en esta vista, se debe indicar el horario del transporte.
 ---
 ### 4.2.3 Horario del transporte
 Para realizar búsqueda de los horarios del transporte, Green route ofrece un conjunto de filtros, por ejemplo, la agencia, 
-la frequencia de servicio del transporte, y nombre de la ruta. El administrador debe pulsar la opción "Search Transport 
-Schedule". Green Route presenta una lista con los horarios por día, frecuencia y agencia. También en esta vista es posible editar
-los horarios del transporte.
+la frequencia de servicio del transporte y nombre de la ruta. El administrador debe pulsar la opción 
+"Search Transport Schedule". Green Route presenta una lista con los horarios por día, frecuencia y agencia. 
+También en esta vista es posible editar los horarios del transporte.
 
 ![TransportSchedule](images/423_transportSchedule.PNG)
 
 ---
 ### 4.2.4 Añadir horarios de transporte 
-Para añadir, editar o actualizar los horarios del transporte público, Green Route presenta una vista donde el administrador
-puede indicar el nombre de la ruta, horario de salida o llegada por día. Así mismo, el administrador puede indicar
-si el horario capturado está activo para que los usuarios pueden visualizarlo o no.
+Para añadir, editar o actualizar los horarios del transporte público, Green Route presenta una vista donde el 
+administrador puede indicar el nombre de la ruta, horario de salida o llegada por día. Así mismo, el 
+administrador puede indicar si el horario capturado está activo para que los usuarios pueden visualizarlo o no.
 
 ![AddTransportSchedule](images/424_addTransportSchedule.PNG)
 
@@ -411,7 +413,7 @@ Por otro lado, el administrador debe indicar la frecuencia, agencia, sitio web e
 
 La arquitectura actual de Smart City consiste en un conjunto de módulos que permiten al usuario final encontrar 
 la mejor ruta a seguir para llegar a un destino específico, tomando en cuenta distintivos que describen 
-al usuario (condiciones de salud), preferencias , tipo de transporte, etc. Esta arquitectura 
+al usuario (condiciones de salud), preferencias, tipo de transporte, etc. Esta arquitectura 
 incluye algunos de los componentes desarrollados como parte del SmartSDK, tales como:
 Smart Spot, Cloudino y SDK para NGSI.
 
@@ -435,7 +437,7 @@ El código de este componente se encuentra en GitHub:
 [Front End Green Route](https://github.com/R4chel83/smartcity-front). 
 
 ## 5.3 Vagrant - keyrock Green Route
-Este componente despliegue los servicios de base de datos (Mongo) y de autenticación (Keyrock). Por ejemplo,
+Este componente despliega los servicios de base de datos (Mongo) y de autenticación (Keyrock). Por ejemplo,
 todas las alertas y datos de usuarios son almacenados en Mongo, mientras que todos los servicios de autenticación
 para acceder a las aplicaciones, servicios y accesos de usuarios son administrador por keyrock.
 
