@@ -39,7 +39,7 @@ usuario final a determinar la mejor ruta a seguir para llegar a un destino, teni
 
 * Green Route reune información de unidades de monitoreo de la calidad del aire del gobierno de la Ciudad de México
 y de componentes de IoT desarrolladas en el proyecto de SmartSDK. También es la primera vez, que en la Ciudad de México
- la información de calidad del airea se combina con datos de rutas de transporte público.
+ la información de calidad del aire se combina con datos de rutas de transporte público.
 
 * Green Route se desarrolló usando las siguientes tecnologías: Angular 2.0, HTML 5.0, Java, Bootstrap, y TypeScript.
 Estas tecnologías permite que Green Route se use en plataformas móviles y web.
@@ -50,18 +50,19 @@ Estas tecnologías permite que Green Route se use en plataformas móviles y web.
 Los datos son obtenidos a partir de un crawler que se desarrolló y que obtiene los datos de cada estación 
 cada hora.
 
-* Datos de la calidad del aire de la ciudad de Murcia, España. Los datos son monitoreados a través de un
- Smart Spot [SmartSDK IoT](https://smartsdk.eu/wp-content/uploads/sites/8/2017/06/SmartSDK_D3.2v1.2_FINAL.pdf).
+* Se cuentan con datos de la calidad del aire de la ciudad de Murcia, España. Los datos son monitoreados a 
+través de un Smart Spot [SmartSDK IoT](https://smartsdk.eu/wp-content/uploads/sites/8/2017/06/SmartSDK_D3.2v1.2_FINAL.pdf).
 
-* Datos de las condiciones metereológicas de la Ciudad de México. Los datos son monitoreados a través de
-Cloudino [SmartSDK IoT](https://smartsdk.eu/wp-content/uploads/sites/8/2017/06/SmartSDK_D3.2v1.2_FINAL.pdf)
+* Se cuentan con datos de las condiciones metereológicas de la Ciudad de México. Los datos son monitoreados 
+a través de Cloudino [SmartSDK IoT](https://smartsdk.eu/wp-content/uploads/sites/8/2017/06/SmartSDK_D3.2v1.2_FINAL.pdf)
 
-* El revolucionario humano como sensor es un elemento clave para Green Route. Los usuarios envían 
-un surtido de alertas como accidentes, atascos, contaminación, etc. De esta manera, las alertas generadas por 
+* El revolucionario concepto de humano como sensor es un elemento clave para Green Route. Los usuarios envían 
+un surtido de alertas de accidentes, tráfico, contaminación, etc. De esta manera, las alertas generadas por 
 los usuarios son una fuente de datos para Green Route.
 
 * También un componente NGSI SDK ha sido desarrollado para comunicar datos de contexto hacia el Orion Context
 Broker, el cual es el componente de FIWARE que centraliza la información de contexto.
+[SmartSDK IoT](https://smartsdk.eu/wp-content/uploads/sites/8/2017/06/SmartSDK_D3.2v1.2_FINAL.pdf).
 =================================================================================
 
 # 3. Green Route
@@ -113,7 +114,7 @@ Otro ejemplo de validación, es que Green Route detecta cuando un usuario o cont
 
 #### 3.2.2 ¿Se te olvidó tu contraseña?
 Cuando un usuario olvida su contraseña, es fácil recuperarla.
-En la misma vista de Inicio de Sesión, aparece la opción de "Forgot password". 
+En la misma vista de Sign In, aparece la opción de "Forgot password". 
 Otra forma de acceder a es através del siguiente enlace 
 [www.greenroutesdk.com/#/forgot-password](http://207.249.127.124/#/forgot-password). 
 El usuario debe indicar el correo electrónico con que se registró y pulsar el botón de "Send".
@@ -187,14 +188,14 @@ Un usuario puede indicar si esta dirección corresponde a su trabajo o su casa, 
 #### 3.4.1 Registrar / editar del perfil de salud
 El objetivo de Green Route es ayudar al usuario a determinar mejores rutas de traslado, tomando en cuenta su 
 perfil de salud. Para realizar el registro del perfil de salud, el usuario ingresar a "Health profile" en donde
-se muestran tres opciones, que el usuario tiene la libertad de indicar alguna de ellas: su estado de salud actual,
+se muestran tres opciones. El usuario tiene la libertad de indicar alguna de ellas: su estado de salud actual,
 indicar síntomas en caso de alergías o su nivel de asma.
 
 ![HealthProfile](images/341_healthprofile.PNG)
 
-En la opción de alergía, Green Route presenta un conjunto de síntomas. El usuario puede indicar de la lista presentada
-cuáles son los sintomas que presenta durante una alergia.
-La información ingresada, será tomanda en cuenta para la optimización y generación de rutas para el usuario.
+En la opción de alergías, Green Route presenta un conjunto de síntomas. El usuario puede indicar, de la lista 
+presentada, cuáles son los síntomas que presenta durante una alergia.
+La información ingresada, será tomada en cuenta para la optimización y generación de rutas para el usuario.
 
 ![HealthProfile](images/341_healthprofile2.PNG)
 
@@ -216,7 +217,7 @@ Para añadir un nuevo vehículo, el usuario debe pulsar el botón "Add".
 
 ![VehicleProfile](images/351_registerVehicle.PNG)
 
-Dentro de esta opción, el usuario puede añadir datos de su vehículo, ya sea un coche, una bicicleta o moto. 
+Dentro de esta opción, el usuario puede añadir datos de su vehículo, ya sea un coche, una bicicleta o motocicleta. 
 Algunos de los datos que ingresa son: tipo de vehículo, tipo de combustible, placas, entre otros.
 Así mismo, el usuario puede indicar si un vehículo es favorito o no.
 
@@ -238,8 +239,8 @@ Otros grupos actuales son: runners / walkers, drivers, public transport users y 
 
 ![subscribedGroups](images/361_subscribeGroups.PNG)
 
-Si un usuario no quiere estar suscrito a un grupo que ya previamente habia seleccionado, solo debe ingresar abrir
-a suscripciones y deshabilitar la opción de "Subscribe".
+Si un usuario no quiere estar suscrito a un grupo que ya previamente habia seleccionado, solo debe ingresar 
+deshabilitar la opción de "Subscribe".
 
 ![subscribedGroups](images/361_subscribeGroups2.PNG)
 
@@ -248,9 +249,9 @@ a suscripciones y deshabilitar la opción de "Subscribe".
 
 #### 3.7.1 Generar alertas
 Actualmente existen dos aplicaciones, una de ellas de Green Route y la segunda es una aplicación de generación 
-de alertas por usuarios. Nosotros estamos trabjando para integrar ambas aplicaciones sobre una sola: Green Route.
+de alertas por usuarios. Nosotros estamos trabajando para integrar ambas aplicaciones sobre una sola: Green Route.
 La aplicación de alertas tiene como objetivo que el usuario pueda generar alertas de diferentes tipos. 
-Por ejemplo, alertas de trafíco vehicular, accidentes, condiciones del clima, contaminación, polen y ataques 
+Por ejemplo, alertas de tráfico vehicular, accidentes, condiciones del clima, contaminación, polen y ataques 
 de asma. De lado izquierdo de Green Route, se muestra el menú de "Alerts" y al pulsar sobre este, se despliega la opción
 de "Generate alerts". La URL para ingresar a esta aplicación es 
 [https://www.smartsdkitesm.com](https://www.smartsdkitesm.com).
@@ -294,8 +295,8 @@ Al pulsar el botón de "View all", el usuario será redireccionado a la opción 
 ## 3.8 Planificar mi viaje
 
 #### 3.8.1 Monitoreo de la calidad del aire
-Actualmente, Green Route monitorea la calidad del aire de la CDMX. Actualmente, para las alertas de condición del clima, 
-y contaminación se cuenta con las siguientes fuentes de datos: 47 estaciones de calidad del aire de la CDMX,
+Actualmente, Green Route monitorea la calidad del aire de la CDMX. Actualmente, para las alertas de condición 
+del clima y contaminación se cuenta con las siguientes fuentes de datos: 47 estaciones de calidad del aire de la CDMX,
 y dos componentes de IoT: Smart Spot and Cloudino [SmartSDK IoT](https://smartsdk.eu/wp-content/uploads/sites/8/2017/06/SmartSDK_D3.2v1.2_FINAL.pdf).
 Estos datos se muestran de manera gráfica sobre un mapa. 
 
@@ -325,9 +326,9 @@ España, de tal manera que el Spot se visualiza de la siguiente manera en el map
 #### 3.8.2 Generación de rutas
 
 Green Route permite calcular la mejor ruta entre dos puntos utilizando el transporte público. Para ello el motor 
-de ruta permite especificar varios parámetros relativos a la ruta, como horarios de salida y llegada, distancia máxima 
-a pie y otros.En cuanto a la ruta calculada, el motor de enrutamiento devuelve los posibles itinerarios encontrados y 
-todos los pasos que el usuario debe seguir en cada uno.
+de ruta permite especificar varios parámetros relativos a la ruta, como horarios de salida y llegada, distancia 
+máxima a pie y otros. En cuanto a la ruta calculada, el motor de rutas devuelve los posibles itinerarios 
+encontrados y todos los pasos que el usuario debe seguir en cada uno.
 
 ![Routing](images/382_routing1.PNG)
 
