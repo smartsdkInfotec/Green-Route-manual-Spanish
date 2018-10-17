@@ -1,2 +1,3 @@
 site_name: Green Route manual
 theme: readthedocs
+extra_css: ["https://fiware.org/style/fiware_readthedocs.css"]
